@@ -33,7 +33,7 @@ provider:
 
 functions:
   api:
-    handler: handler.handler
+    handler: api/people.handler
     events:
       - http:
           path: /
